@@ -24,18 +24,18 @@ console.log(number);
 const baseOfTriangle = 15;
 const heightOfTriangle = 20;
 const areaOfTriangle = (baseOfTriangle * heightOfTriangle) / 2;
-console.log("Area of Triangle is:" + areaOfTriangle);
+console.log("Area of Triangle is: " + areaOfTriangle);
 
 //task 5
 
 let lengthRectangle = 20;
 let widthRectangle = 30;
 let perimeterRectangle = (lengthRectangle + widthRectangle) * 2;
-console.log("Perimeter of Rectangle is:" + perimeterRectangle);
+console.log("Perimeter of Rectangle is: " + perimeterRectangle);
 
 //task 6
 
 let radiusOfCircle = 10;
 const PI = 3.14159;
-let circleArea = PI * (radiusOfCircle * 2);
-console.log("Area of Circle is:" + circleArea);
+let circleArea = PI * radiusOfCircle ** 2;
+console.log("Area of Circle is: " + circleArea);
