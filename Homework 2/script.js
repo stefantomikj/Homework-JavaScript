@@ -1,0 +1,101 @@
+// task1
+
+let number1 = 17;
+let number2 = 20;
+if (number1 > number2) {
+  console.log(`${number1} is bigger number than ${number2}`);
+} else {
+  console.log(`${number2} is bigger number than ${number1}`);
+}
+
+//task2
+
+let num1 = 20;
+let num2 = 19;
+let num3 = 17;
+let highestNumber;
+
+if (num1 > num2 && num1 > num3) {
+  highestNumber = num1;
+} else if (num2 > num1 && num2 > num3) {
+  highestNumber = num2;
+} else {
+  highestNumber = num3;
+}
+console.log(highestNumber);
+
+//task3
+
+let inputNumber = 4;
+
+if (inputNumber > 0) {
+  console.log("Number is positive");
+} else if (inputNumber < 0) {
+  console.log("Number is negative");
+} else if (inputNumber == 0) {
+  console.log("Number is zero");
+} else {
+  console.log("Only enter number");
+}
+
+//task4
+
+let number = prompt("Please enter number between 1-7");
+let parseNumber = parseInt(number);
+switch (parseNumber) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Thuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  case 4:
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Saturday");
+    break;
+  case 7:
+    console.log("Sunday");
+    break;
+  default:
+    alert("Enter number between 1 - 7");
+}
+
+// task 5
+
+let userInput = 57;
+if (typeof userInput == "number") {
+  console.log("User input is number");
+} else {
+  console.log("User input is not number");
+}
+
+//task 6
+
+let Physics = 5;
+let Chemistry = 4;
+let Biology = 3;
+let Mathematics = 5;
+let Computer = 2;
+let totalOfMarks = Physics + Chemistry + Biology + Mathematics + Computer;
+let percentage = (totalOfMarks / 25) * 100;
+if (percentage >= 90) {
+  console.log("Grade A");
+} else if (percentage >= 80) {
+  console.log("Grade B");
+} else if (percentage >= 70) {
+  console.log("Grade C");
+} else if (percentage >= 60) {
+  console.log("Grade D");
+} else if (percentage >= 40) {
+  console.log("Grade E");
+} else {
+  console.log("Grade F");
+}
