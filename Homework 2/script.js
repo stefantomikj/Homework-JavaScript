@@ -1,7 +1,7 @@
 // task1
 
-let number1 = 17;
-let number2 = 20;
+let number1 = parseInt(prompt("Enter first number"));
+let number2 = parseInt(prompt("Enter second number"));
 if (number1 > number2) {
   console.log(`${number1} is bigger number than ${number2}`);
 } else {
@@ -10,9 +10,9 @@ if (number1 > number2) {
 
 //task2
 
-let num1 = 20;
-let num2 = 19;
-let num3 = 17;
+let num1 = parseInt(prompt("Enter number 1"));
+let num2 = parseInt(prompt("Enter number 2"));
+let num3 = parseInt(prompt("Enter number 3"));
 let highestNumber;
 
 if (num1 > num2 && num1 > num3) {
@@ -26,7 +26,7 @@ console.log(highestNumber);
 
 //task3
 
-let inputNumber = 4;
+let inputNumber = parseInt(prompt("Enter number"));
 
 if (inputNumber > 0) {
   console.log("Number is positive");
@@ -70,8 +70,8 @@ switch (parseNumber) {
 
 // task 5
 
-let userInput = 57;
-if (typeof userInput == "number") {
+let userInput = prompt("Please enter something");
+if (typeof userInput === "number") {
   console.log("User input is number");
 } else {
   console.log("User input is not number");
@@ -79,11 +79,11 @@ if (typeof userInput == "number") {
 
 //task 6
 
-let Physics = 5;
-let Chemistry = 4;
-let Biology = 3;
-let Mathematics = 5;
-let Computer = 2;
+let Physics = parseInt(prompt("Enter marks for Physics"));
+let Chemistry = parseInt(prompt("Enter marks for Chemistry"));
+let Biology = parseInt(prompt("Enter marks for Biology"));
+let Mathematics = parseInt(prompt("Enter marks for Mathematics"));
+let Computer = parseInt(prompt("Enter marks for Computer"));
 let totalOfMarks = Physics + Chemistry + Biology + Mathematics + Computer;
 let percentage = (totalOfMarks / 25) * 100;
 if (percentage >= 90) {
