@@ -99,3 +99,48 @@ if (percentage >= 90) {
 } else {
   console.log("Grade F");
 }
+
+//task 7
+
+let year = parseInt(prompt("Enter a year:"));
+let zodiac = (year - 4) % 12;
+if (zodiac === 0) {
+  console.log(`The Chinese Zodiac sign for ${year} is Rat`);
+} else if (zodiac === 1) {
+  console.log(`The Chinese Zodiac sign for ${year} is Ox`);
+} else if (zodiac === 2) {
+  console.log(`The Chinese Zodiac sign for ${year} is Tiger`);
+} else if (zodiac === 3) {
+  console.log(`The Chinese Zodiac sign for ${year} is Rabit`);
+} else if (zodiac === 4) {
+  console.log(`The Chinese Zodiac sign for ${year} is Dragon`);
+} else if (zodiac === 5) {
+  console.log(`The Chinese Zodiac sign for ${year} is Snake`);
+} else if (zodiac === 6) {
+  console.log(`The Chinese Zodiac sign for ${year} is Horse`);
+} else if (zodiac === 7) {
+  console.log(`The Chinese Zodiac sign for ${year} is Goat`);
+} else if (zodiac === 8) {
+  console.log(`The Chinese Zodiac sign for ${year} is Monkey`);
+} else if (zodiac === 9) {
+  console.log(`The Chinese Zodiac sign for ${year} is Roster`);
+} else if (zodiac === 10) {
+  console.log(`The Chinese Zodiac sign for ${year} is Dog`);
+} else if (zodiac === 11) {
+  console.log(`The Chinese Zodiac sign for ${year} is Dog`);
+}
+
+//task 8
+
+let inputMoney = prompt("How much money you have?");
+if (inputMoney === null) {
+  console.log("You didn't enter anything.");
+} else if (inputMoney < 500) {
+  console.log("You don't have much money");
+} else if (inputMoney >= 500 && inputMoney < 1000) {
+  console.log("You should buy meal.");
+} else if (inputMoney >= 1000 && inputMoney < 5000) {
+  console.log("You should go to trip");
+} else {
+  alert("Please enter number between 0 - 5000");
+}
