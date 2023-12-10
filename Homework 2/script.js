@@ -71,10 +71,11 @@ switch (parseNumber) {
 // task 5
 
 let userInput = prompt("Please enter something");
-if (typeof userInput === "number") {
-  console.log("User input is number");
+
+if (isNaN(userInput)) {
+  console.log("User input is string");
 } else {
-  console.log("User input is not number");
+  console.log("User input is number");
 }
 
 //task 6
