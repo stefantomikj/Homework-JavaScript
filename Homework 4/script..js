@@ -62,7 +62,7 @@ function students() {
 let resultOfStudentsArray = students(studentsArray);
 console.log(resultOfStudentsArray);
 
-//task 6
+// TASK 6
 
 let firstNames = ["Stefan", "Trpe", "Goce"];
 let lastNames = ["Tomik", "Trpovski", "Gocevski"];

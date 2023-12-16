@@ -1,0 +1,15 @@
+let headerOne = document.getElementById("myTitle");
+headerOne.innerText = "Text added from JS";
+let nextSiblingElement = headerOne.nextElementSibling;
+console.log(nextSiblingElement);
+nextSiblingElement = "Text added from JS second type";
+let allParagraph = document.getElementsByClassName("paragraph");
+let paragraph2 = allParagraph[allParagraph.length - 1];
+paragraph2.innerText = "Promena na tekst js";
+let textElement = document.querySelector("text");
+textElement.innerText = "Promena 2 na tekstot";
+let headerOneAll = document.getElementsByTagName("h1");
+let headerPosition1 = headerOneAll[headerOneAll.length - 1];
+headerPosition1.innerText = "promena na h1";
+let siblingOfh1 = headerPosition1.nextElementSibling;
+siblingOfh1.innerText = "Promena na sibling element";
